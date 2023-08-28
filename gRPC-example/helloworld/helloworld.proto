@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "github.com/upupnoah/IAM-GeekTime/gRPC-example/helloworld;helloWorldPb";
+
+package helloworld;
+
+// The greeting service definition
+service Greeter {
+  rpc SayHello (HelloRequest) returns (HelloReply) {}
+}
+
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloReply {
+  string message = 1;
+}

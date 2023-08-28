@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+option go_package = "github.com/upupnoah/IAM-GeekTime/gRPC-example/printhelloPB";
+
+package printhelloPB;
+
+service PrintHello {
+  rpc PrintHello (google.protobuf.Empty) returns (HelloResponse) {}
+}
+
+message HelloResponse {
+  string message = 1;
+}

@@ -16,7 +16,7 @@ type server struct {
 	helloWorldPb.UnimplementedGreeterServer
 }
 
-func (s *server) SayHello(ctx context.Context, in *helloWorldPb.HelloRequest) (*helloWorldPb.HelloReply, error) {
+func (s *server) SayHello(_ context.Context, in *helloWorldPb.HelloRequest) (*helloWorldPb.HelloReply, error) {
 	log.Printf("Received: %v", in.GetName())
 	return &helloWorldPb.HelloReply{
 		Message: "Hello " + in.GetName(),

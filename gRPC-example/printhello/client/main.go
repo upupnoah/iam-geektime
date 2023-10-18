@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	printhelloPB "github.com/upupnoah/IAM-GeekTime/gRPC-example/printhello"
+	printhelloPB "github.com/upupnoah/iam-geektime/gRPC-example/printhello"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/protobuf/types/known/emptypb"

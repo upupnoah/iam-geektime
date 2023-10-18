@@ -2,7 +2,7 @@ package code
 
 import (
 	"github.com/novalagung/gubrak"
-	"github.com/upupnoah/IAM-GeekTime/errors"
+	"github.com/upupnoah/iam-geektime/errors"
 )
 
 // ErrCode implements `github.com/marmotedu/errors`.Coder interface.

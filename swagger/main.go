@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/upupnoah/IAM-GeekTime/swagger/api"
-	_ "github.com/upupnoah/IAM-GeekTime/swagger/docs"
+	"github.com/upupnoah/iam-geektime/swagger/api"
+	_ "github.com/upupnoah/iam-geektime/swagger/docs"
 	"log"
 	"net/http"
 )

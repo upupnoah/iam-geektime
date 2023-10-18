@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/upupnoah/IAM-GeekTime/errors"
+	"github.com/upupnoah/iam-geektime/errors"
 
-	code "github.com/upupnoah/IAM-GeekTime/sample-code"
+	code "github.com/upupnoah/iam-geektime/sample-code"
 )
 
 func main() {

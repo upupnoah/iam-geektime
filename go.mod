@@ -1,4 +1,4 @@
-module github.com/upupnoah/IAM-GeekTime
+module github.com/upupnoah/iam-geektime
 
 go 1.21.0
 

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/upupnoah/IAM-GeekTime/gRPC-example/printhelloPB";
+option go_package = "github.com/upupnoah/iam-geektime/grpc-example/printhelloPB";
 
 package printhelloPB;
 

@@ -117,7 +117,7 @@ func ParseCoder(err error) Coder {
 	return unknownCoder
 }
 
-// IsCode reports whether any error in err's chain contains the given error code.
+// IsCode reports whether any error in err chain contains the given error code.
 func IsCode(err error, code int) bool {
 	if v, ok := err.(*withCode); ok {
 		if v.code == code {

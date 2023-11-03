@@ -1,7 +1,7 @@
 package docs
 
 import (
-	"github.com/upupnoah/IAM-GeekTime/swagger/api"
+	"github.com/upupnoah/iam-geektime/swagger/api"
 )
 
 // swagger:route POST /users user createUserRequest
